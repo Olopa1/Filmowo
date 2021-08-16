@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Filmowo</title>
+	<meta name="description" content="Jest to strona wirtualnego przedsiębiorstwa, która zajmuje się wypożyczaniem filmów.">
+	<meta name="keywords" content="Przedsiębiorstwo,Filmy,wypożyczalnia,wirtualne,praktyki,recenzje">
+	<meta name="robots" content="nofollow">
+	<meta name="robots" content="noindex">
+	<meta charset="utf-8">
+	<style>
+	a{
+	color:black;
+	text-decoration:none;
+	}
+	
+	#przycisk_potwierdzenia{
+	animation: 3s infinite przycisk_potwierdzenia;
+	background-color: rgba(196, 196, 196, 0.43);
+	border: dashed rgb(3, 188, 0) 10px;
+	border-radius: 10px;
+	width: 50%;
+	font-size: 20px;
+	font-weight: bold;	
+	transition: all 0.5s ease-out;
+	}
+	
+	@keyframes przycisk_potwierdzenia{
+	0%	{border: solid rgb(3, 188, 0) 10px;}
+	25%	{border: solid rgb(3, 188, 0) 10px;}
+	50%	{border: solid rgb(153, 104, 0) 10px;}
+	75%	{border: solid rgb(153, 0, 86) 10px;}
+	100%{border: solid rgb(3, 188, 0) 10px;}
+	}
+	
+	#przycisk_potwierdzenia:hover{
+	background-color: rgba(0, 0, 0, 1);
+	color:white;
+	}
+	
+	</style>
+	</head>
+	<body>
+	<center>
+	<img src="./grafiki/budowa.jpeg" width="50%">
+	<a href="strona_glowna.php"><div id="przycisk_potwierdzenia">
+	<p>Strona nie jest skończona klikając tutaj </p>
+	<p>przejdziesz dalej na część strony która zdązyła już powstać.</p>
+	</div></a>
+	</center>
+	</body>
+</html>

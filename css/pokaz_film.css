@@ -1,0 +1,131 @@
+body{
+	background-color: #414141;
+	color: white;
+	font-family:'Anton', sans-serif,"Comic Sans MS";
+	margin: 0px !important;
+}
+
+a{
+	color: red;
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+#kontener{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1%;
+}
+
+#panel_ster{
+	min-height: 70px;
+	width: 100%;
+}
+
+#menu{
+	min-height: 30px;
+}
+
+#stopka{
+	clear: both;
+	text-align: center;
+}
+
+#naj_oceniane_pf{
+	height: 450px;
+	overflow-y: scroll;
+	
+}
+
+.wlasciwosci_sterowania{
+	text-align:center;
+	float: left;
+	width: 30%;
+	margin: 1%;
+	font-size: 20px;
+}
+
+#pole_szukania{
+	border-radius: 5px;
+	text-align: center;
+	width: 50%;
+	min-height: 20px;
+}
+
+#przycisk_szukaj{
+	background-image: linear-gradient(red,black);
+	color: white;
+	border: gray solid 3px;
+	border-radius: 5px;
+	width: 30%;
+	min-height: 20px;
+	cursor: pointer;
+}
+
+.pozycja_menu{
+	transition: all 0.5s ease-out;
+	color: red;
+	text-align: center;
+	width: 15%;
+	float: left;
+	font-size: 20px;
+	border-left: red solid 2px;
+	border-right: red solid 2px;
+	cursor: pointer;
+}
+
+.pozycja_menu:hover{
+	transition: all 0.5s ease-out;
+	background-color: rgba(153,15,15,0.50);
+	color: white;
+	width: 15%;
+	font-style: italic;
+	border-left: red solid 2px;
+	border-right: red solid 2px;
+	border-radius: 5px;
+}
+
+.tytul{
+	width: 100%;
+	color: white;
+	font-size: 35px;	
+	text-align: center;
+	border-bottom: red dashed 1px;	
+}
+
+.pozycja_zdj{
+	width: 100%;
+	min-height: 10px;
+	border: red solid 5px;
+	
+}
+
+#form_log_rej{
+	background-color:rgba(24, 23, 23, 0.8);
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 5%;
+}
+
+#pole_wprowadzania{
+	width: 40%;
+	
+}
+
+#informacje_film{
+	width:80%;
+	float: left;
+	text-align: center;
+}
+
+#opis_filmu{
+	clear:both;
+}
+
