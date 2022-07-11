@@ -84,12 +84,6 @@
 				<p>Autorami widoczenj strony jest grupa III w której skład wchodzą :</p> 
 				<p>Dominik Klimczak</p>
 				<p>Damian Król</p>
-				<p>Jakub Michalak</p>
-				<p>Patryk Otto </p>
-				<p>Miłosz Skalski</p>
-				<p>Aleksandra Maćkowiak</p>
-				<p>Jakub Krzymieniewski</p>
-				<p>Mateusz Sobczyk</p>
 			</div>
 			
 			
